@@ -1,0 +1,176 @@
+body {
+	color: #434455;
+	font-family: "Roboto", sans-serif;
+	background-color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+.main {
+	background-color: #2e2f42;
+}
+
+.main-title {
+	color: #ffffff;
+	font-size: 56px;
+	font-weight: bold;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+
+.main-button {
+	color: #ffffff;
+	background-color: #4d5aE5;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	font-weight: 500;
+}
+
+.main-button:hover,
+.main-button:focus {
+	background-color: #404bbf;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: #404bbf;
+}
+
+.nav-link:active {
+	text-decoration: underline;
+}
+
+.logo {
+	color: #4D5AE5;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+
+	font-weight: 700;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.logo-span {
+	color: #2e2f42;
+	font-size: 18px;
+
+	font-weight: 700;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.nav-link {
+	font-size: 16px;
+
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.email:hover:hover,
+.email:focus {
+	color: #404bbf;
+}
+
+.email {
+	color: #434455;
+}
+
+.address {
+	font-size: 16px;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: #2E2F42;
+}
+
+.dir-title {
+	color: #2E2F42;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.person-title {
+	font-size: 20px;
+	color: #2E2F42;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	background-color: #ffffff;
+}
+
+.person-list {
+	background-color: #ffffff;
+}
+
+.product-title {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+
+.menu {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.25;
+	letter-spacing: 0.04em;
+}
+
+.main-footer {
+	background-color: #2e2f42;
+	color: #F4F4FD;
+}
+
+.footer-link {
+	color: #4D5AE5;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.logo-span-footer {
+	color: #F4F4FD;
+}
+
+.section-person {
+	background-color: #f4f4fd;
+}
