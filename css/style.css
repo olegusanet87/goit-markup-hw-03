@@ -51,7 +51,8 @@ img {
 }
 
 .main {
-	padding: 188px 0;
+	padding-top: 188px;
+	padding-bottom: 188px;
 	background-color: #2e2f42;
 }
 
@@ -111,9 +112,11 @@ img {
 	display: flex;
 	gap: 40px;
 }
-.menu-item:last-child{
+
+.menu-item:last-child {
 	margin-right: 0;
 }
+
 .logo {
 	color: #4D5AE5;
 	font-family: "Raleway", sans-serif;
@@ -164,9 +167,11 @@ img {
 	display: flex;
 	column-gap: 40px;
 }
-.address-list-item:last-child{
+
+.address-list-item:last-child {
 	margin-right: 0;
 }
+
 .section-title {
 	text-align: center;
 	font-size: 36px;
@@ -241,6 +246,7 @@ img {
 .person-list {
 	background-color: #ffffff;
 	width: calc((100% - 72px) / 4);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .person-container {
@@ -263,7 +269,7 @@ img {
 }
 
 .product-container {
-	padding-top: 32px 16px;
+	padding: 32px 16px;
 
 	text-align: left;
 	border-bottom: 1px solid #E7E9FC;
