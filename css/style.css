@@ -121,7 +121,6 @@ img {
 .logo-span {
 	color: #2e2f42;
 	font-size: 18px;
-
 	font-weight: 700;
 	line-height: 1.16;
 	letter-spacing: 0.03em;
@@ -146,7 +145,7 @@ img {
 	color: #434455;
 }
 
-.menu-item {}
+
 
 .address {
 	display: flex;
@@ -199,6 +198,10 @@ img {
 	column-gap: 24px;
 }
 
+.menu-benefit-item {
+	width: calc((100% - 72px) / 4);
+}
+
 .dir-title {
 	color: #2E2F42;
 	font-size: 20px;
@@ -211,17 +214,8 @@ img {
 .menu-person {
 	display: flex;
 	flex-direction: row;
-
 	column-gap: 24px;
-	/*
-	width: calc((100% - 72px) / 4);
-	*/
-	/*display: inline-flex;
-	padding-bottom: 0px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 32px;*/
+
 }
 
 .person-title {
@@ -278,7 +272,8 @@ img {
 	color: #2e2f42;
 	margin-bottom: 8px;
 }
-.product-list{
+
+.product-list {
 	width: calc((100% - 48px) / 3);
 }
 
