@@ -105,12 +105,17 @@ img {
 
 .main-nav {
 	display: flex;
+	align-items: center;
 
 }
 
 .menu {
 	display: flex;
 	gap: 40px;
+}
+
+.menu-item {
+	padding: 24px 0;
 }
 
 .menu-item:last-child {
@@ -166,6 +171,10 @@ img {
 .address-list {
 	display: flex;
 	column-gap: 40px;
+}
+
+.address-list-item {
+	padding: 24px 0;
 }
 
 .address-list-item:last-child {
