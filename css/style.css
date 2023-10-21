@@ -170,7 +170,7 @@ img {
 
 .address-list {
 	display: flex;
-	column-gap: 40px;
+	gap: 40px;
 }
 
 .address-list-item {
